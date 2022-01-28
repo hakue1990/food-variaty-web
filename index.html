@@ -1,139 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food variaty</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
-<body>
-    <!-- start Section 1-->
-    <section class="section-1">
-        <h1 class="section-heading">
-            Variety of foods
-        </h1>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food variaty.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container"  id='home'>
+      <nav>
+        <div class="logo">
+          <i class="fa-brands fa-envira"></i>
+        </div>
+        <ul class="nav--links">
+            <a href="#home" class="nav--link">
+                <li class="nav--item desktop">home</li>
+                <i class="fa-solid fa-balloon mobile"></i>
+            </a>
+            <a href="#kids" class="nav--link">
+                <li class="nav--item desktop">kids</li>
+                <i class="fa-duotone fa-child mobile"></i>
+            </a>
+            <a href="#gallery" class="nav--link">
+                <li class="nav--item desktop">gellery</li>
+                <i class="fa-regular fa-gallery-thumbnails mobile"></i>
+            </a>
+        
+        </ul>
+      </nav>
+      <!-- start Section 1-->
+      <section class="section-1">
+        <h1 class="section-heading">Variety of foods.</h1>
         <div class="section-1-icons">
-            <i class="fas fa-pizza-slice change"></i>
-            <i class="fas fa-lemon"></i>
-            <i class="fas fa-pepper-hot"></i>
-            <i class="fas fa-seedling"></i>
-            <i class="fas fa-cookie"></i>
-            <i class="fas fa-bread-slice"></i>
-            <i class="fas fa-hotdog"></i>
-            <i class="fas fa-stroopwafel"></i>
+          <i class="fas fa-pizza-slice change"></i>
+          <i class="fas fa-lemon"></i>
+          <i class="fas fa-pepper-hot"></i>
+          <i class="fas fa-seedling"></i>
+          <i class="fas fa-cookie"></i>
+          <i class="fas fa-bread-slice"></i>
+          <i class="fas fa-hotdog"></i>
+          <i class="fas fa-stroopwafel"></i>
         </div>
-    </section>
-    <!-- end of Section 1-->
-
-
-    <!-- start Section 2-->
-    <section class="section-2">
-        <h1 class="section-heading">
-            for kids!
-        </h1>
+      </section>
+      <!-- end of Section 1-->
+      <!-- start Section 2-->
+      <section class="section-2" id='kids'>
+        <h1 class="section-heading">for kids!</h1>
         <div class="cards-container">
-            <div class="card">
-                <img src="./img/burger.webp" alt="burger" class="card-img">
-                <h3 class="card-name">Burger</h3>
-                <button class="card-btn">Order now</button>
-            </div>
+          <div class="card">
+            <img src="./img/burger.webp" alt="burger" class="card-img" />
+            <h3 class="card-name">Burger</h3>
+            <button class="card-btn">Order now</button>
+          </div>
 
-            <div class="card">
-                <img src="./img/pizza.webp" alt="pizza" class="card-img">
-                <h3 class="card-name">Pizza</h3>
-                <button class="card-btn">Order now</button>
-            </div>
-
-            <div class="card">
-                <img src="./img/tomato.webp" alt="burger" class="card-img">
-                <h3 class="card-name">Tomato</h3>
-                <button class="card-btn">Order now</button>
-            </div>
+          <div class="card">
+            <img src="./img/pizza.webp" alt="pizza" class="card-img" />
+            <h3 class="card-name">Pizza</h3>
+            <button class="card-btn">Order now</button>
+          </div>
+          <div class="card">
+            <img src="./img/tomato.webp" alt="burger" class="card-img" />
+            <h3 class="card-name">Tomato</h3>
+            <button class="card-btn">Order now</button>
+          </div>
         </div>
-    </section>
-    <!-- end of Section 2-->
-    <!-- start Section 3-->
-    <section class="section-3">
-        <h1 class="section-heading">
-            gallery
-        </h1>
-   <div class="gallery-container">
-       <a href="#" class="galler-link" title='Order now'>
-        <div class="overlay"></div>
+      </section>
+      <!-- end of Section 2-->
+      <!-- start Section 3-->
+      <section class="section-3" id='gallery'>
+        <h1 class="section-heading">gallery</h1>
+        <div class="gallery-container" >
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
 
-           <img src="./img/gallery/burger.webp" alt="burger" class="food-img">
-           <h3 class="food-name">burger</h3>
-           <p class="food-desc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-           </p>
-       </a>
-       <a href="#" class="galler-link" title='Order now'>
-        <div class="overlay"></div>
+            <img
+              src="./img/gallery/burger.webp"
+              alt="burger"
+              class="food-img"
+            />
+            <h3 class="food-name">burger</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
 
-        <img src="./img/gallery/pizza.webp" alt="pizza" class="food-img">
-        <h3 class="food-name">pizza</h3>
-        <p class="food-desc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-        </p>
-    </a>
-    <a href="#" class="galler-link" title='Order now'>
-        <div class="overlay"></div>
-        <img src="./img/gallery/fish.webp" alt="fish" class="food-img">
-        <h3 class="food-name">fish</h3>
-        <p class="food-desc">
-         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-        </p>
-    </a>
-    <a href="#" class="galler-link" title='Order now'>
-        <div class="overlay"></div>
+            <img src="./img/gallery/pizza.webp" alt="pizza" class="food-img" />
+            <h3 class="food-name">pizza</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
+            <img src="./img/gallery/fish.webp" alt="fish" class="food-img" />
+            <h3 class="food-name">fish</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
 
-        <img src="./img/gallery/sushi.webp" alt="sushi" class="food-img">
-        <h3 class="food-name">sushi</h3>
-        <p class="food-desc">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-        </p>
-    </a>
-    <a href="#" class="galler-link" title='Order now'>
-        <div class="overlay"></div>
+            <img src="./img/gallery/sushi.webp" alt="sushi" class="food-img" />
+            <h3 class="food-name">sushi</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
 
-     <img src="./img/gallery/ramen.webp" alt="ramen" class="food-img">
-     <h3 class="food-name">ramen</h3>
-     <p class="food-desc">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-     </p>
- </a>
- <a href="#" class="galler-link" title='Order now'>
-    <div class="overlay"></div>
-
-     <img src="./img/gallery/spagetti.webp" alt="spagetti" class="food-img">
-     <h3 class="food-name">spagetti</h3>
-     <p class="food-desc">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam, quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt recusandae! Beatae, voluptatum?
-     </p>
- </a>
-   </div>
-    </section>
-    <!-- end of Section 3-->
-    <!--Footer-->
-    <footer>
+            <img src="./img/gallery/ramen.webp" alt="ramen" class="food-img" />
+            <h3 class="food-name">ramen</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+          <a href="#" class="galler-link" title="Order now">
+            <div class="overlay"></div>
+            <img
+              src="./img/gallery/spagetti.webp"
+              alt="spagetti"
+              class="food-img"
+            />
+            <h3 class="food-name">spagetti</h3>
+            <p class="food-desc">
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam,
+              quo culpa. Quibusdam non excepturi voluptatum laborum nesciunt
+              recusandae! Beatae, voluptatum?
+            </p>
+          </a>
+        </div>
+      </section>
+      <!-- end of Section 3-->
+      <!--Footer-->
+      <footer>
         <div class="footer--text">
-            <div class="footer-signmeup">
-                <h2>sign me up</h2>
-                <p>to get extra news about new delishes dishes in our restaurant</p>
-            </div>
-            <form  class="sing-up">
-                <input type="text"placeholder='sign up'><button><i class="fas fa-arrow-alt-circle-right"></i></button>
-            </form>
+          <div class="footer-signmeup">
+            <h2>sign me up</h2>
+            <p>to get extra news about new delishes dishes in our restaurant</p>
+          </div>
+          <form class="sing-up">
+            <input type="text" placeholder="sign up" /><button>
+              <i class="fas fa-arrow-alt-circle-right"></i>
+            </button>
+          </form>
         </div>
         <div class="footer--copyright">
-            <span>&copy; All rights reserved</span>
-            <span class="made-by">made with ❤️ by adam</span>
+          <span class="all-rights">&copy; All rights reserved</span>
+          <span class="made-by">made with ❤️ by adam</span>
+          <a href="https://github.com/hakue1990" target="_blank" class="github"
+            ><i class="fa-brands fa-github-alt"></i
+          ></a>
         </div>
-    </footer>
-    <!--end of Footer-->
-
+      </footer>
+      <!--end of Footer-->
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>

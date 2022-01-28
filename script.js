@@ -11,6 +11,6 @@ if(i > icons.length){
     icons[0].classList.add('change')
     i = 1;
 }else {
-    icon.nextElementSibling.classList.add('change');
+    icon.nextElementSibling.classList.add('change')
 }
-},1800)
+},700)
