@@ -4,18 +4,18 @@ const icons = document.querySelectorAll('.section-1-icons i');
 let i = 1;
 
 setInterval(() => {
-  i++;
+i++;
+const icon = document.querySelector('.section-1-icons i.change');
+icon.classList.remove('change');
 
-  const icon = document.querySelector('.section-1-icons i.change');
-  icon.classList.remove('change');
+if(i > icons.length){
+  i = 1;
+  icons[0].classList.add('change');
+}else {
 
-  if (i > icons.length) {
-    icons[0].classList.add('change');
-    i = 1;
-  } else {
-    icon.nextElementSibling.classList.add('change');
-  }
-}, 700);
+  icon.nextElementSibling.classList.add('change')
+}
+},600)
 
 // burger button class toggle
 
